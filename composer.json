@@ -1,0 +1,19 @@
+{
+    "name": "yuanchang/flash",
+    "keywords": ["framework", "flash", "message"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuanchang",
+            "email": "yuanchang.xu@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4":{
+            "Flash\\": "src/"
+        }
+    }
+}
